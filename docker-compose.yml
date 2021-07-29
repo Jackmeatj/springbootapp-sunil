@@ -1,6 +1,6 @@
 mysql:
   image: mysql:5.7
-  ports:
+  ports:8080
     - "3306:3306"
   environment:
     - MYSQL_ROOT_PASSWORD=
